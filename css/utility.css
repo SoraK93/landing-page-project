@@ -1,0 +1,49 @@
+:root{
+    --dark-background-color: #1F2937;
+    --white-text: #F9FAF8;
+    --light-grey-background-color: #E5E7EB;
+    --button-color: #3882F6;
+    --dark-text-color: #1F2937;
+}
+
+/* Background Color */
+.dark-bg{
+    background-color: var(--dark-background-color);
+}
+.grey-bg{
+    background-color: var(--light-grey-background-color);
+}
+.blue-bg{
+    background-color: var(--button-color);
+}
+
+/* Text Color */
+.white-text{
+    color: var(--white-text);
+}
+.dark-text{
+    color: var(--dark-background-color);
+}
+.grey-text{
+    color: var(--light-grey-background-color);
+}
+
+
+/* Text Size */
+.lt-size{
+    font-size: 48px;    
+}
+.bt-size{
+    font-size: 36px;
+}
+.mt-size{
+    font-size: 24px;
+}
+.st-size{
+    font-size: 18px;
+}
+
+/* Text Weight */
+.bold{
+    font-weight: 900;
+}
