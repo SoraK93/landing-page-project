@@ -1,93 +1,32 @@
-:root{
-    --dark-background-color: #1F2937;
-    --white-text: #F9FAF8;
-    --light-grey-background-color: #E5E7EB;
-    --button-color: #3882F6;
-    --dark-text-color: #1F2937;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import './utility.css';
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: 1px solid red;
+    font-family: "robote";    
 }
 
-/* NavBar */
-li{
-    list-style-type: none;
-}
+/* Nav Section */
 .nav{
-    background-color: var(--dark-background-color);
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-}
-.nav-header-logo{
-    color: var(--white-text);
-}
-.nav-header-links ul{
-    color: var(--light-grey-background-color);
-    display: flex;
-    gap: 10px;
-}
-.nav-header-links ul li{
-    padding: 0 5px;
-}
-
-/* Intro Section */
-#intro{
-    display: flex;
-    padding: 50px;
-    justify-content: space-around;
-    background-color: var(--dark-background-color);
-}
-
-
-/* Extra Info Section */
-#extra-info h2{
-    text-align: center;
-}
-.info-box{
     display: flex;
     justify-content: space-evenly;
-}
-img{
-    width: 300px;
-}
-
-/* Quote Section */
-.quote{
-    background-color: var(--light-grey-background-color);
-    font-size: 36px;
-    padding: 150px;
-}
-.quote p{
-    font-style: "light italic";
-}
-.quote p:nth-child(2){
-    text-align: end;
-}
-
-/* Call-to-action */
-.call-to-action{
-    background-color: var(--button-color);
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-    flex: 1;
-}
-.call-to-action>div{
-    padding: 50px;
-}
-.call-to-action div:nth-child(2){
-    height: auto;
-}
-
-/* footer */
-footer{
     padding: 10px;
-    background-color: var(--dark-background-color);
 }
-footer p{
-    text-align: center;
+.nav-header-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-header-links{
+    display: flex;
+    align-items: center;
+}
+.nav-header-links ul{
+    display: flex;
+}
+.nav-header-links li{
+    list-style-type: none;
+    padding: 15px;
 }
