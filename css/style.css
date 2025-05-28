@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     font-family: "robote";    
 }
 
@@ -29,4 +29,74 @@
 .nav-header-links li{
     list-style-type: none;
     padding: 15px;
+}
+
+/* Intro Section */
+#intro{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+#intro div{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+.intro-img{
+    width: 25%;
+    height: 250px;
+    padding: 30px;
+}
+.intro-heading{
+    padding-right: 50px;
+}
+.intro-para{
+    padding-right: 20px;
+}
+
+/* Extra Info Section */
+#extra-info h2{
+    text-align: center;
+    margin: 15px 0;
+}
+.info-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.info-box div{
+    width: 250px;
+}
+.info-box img{
+    width: 100%;
+    height: 200px;
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+}
+.info-box div p{
+    text-align: center;
+}
+
+/* Quote Section */
+#quote{
+    /* margin: 0; */
+    width: 100vw;
+    /* padding: 50px; */
+}
+.quote p:nth-child(1){
+    font-style: italic;
+}
+.quote p{
+    padding: 30px;
+}
+
+/* Button */
+button{
+    padding: 4px 25px;
+    border: none;
+    border-radius: 5px;
 }
