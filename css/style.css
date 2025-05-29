@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     /* outline: 1px solid red; */
-    font-family: "robote";    
+    font-family: "roboto";    
 }
 
 /* Nav Section */
@@ -55,17 +55,19 @@
 }
 .intro-para{
     padding-right: 20px;
+    font-weight: 300;
 }
 
 /* Extra Info Section */
 #extra-info h2{
     text-align: center;
-    margin: 15px 0;
+    margin: 25px 0;
 }
 .info-box{
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin: 25px 0;
 }
 .info-box div{
     width: 250px;
@@ -79,19 +81,54 @@
 }
 .info-box div p{
     text-align: center;
+    font-weight: 200;
 }
 
 /* Quote Section */
-#quote{
-    /* margin: 0; */
-    width: 100vw;
-    /* padding: 50px; */
+.quote p{
+    
+    width: 55%;
+    margin: 0 auto;
 }
 .quote p:nth-child(1){
+    padding-top: 50px;
     font-style: italic;
+    font-weight: 200;
 }
-.quote p{
-    padding: 30px;
+.quote p:nth-child(2){
+    text-align: right;
+    padding-bottom: 50px;
+}
+
+/* Call-to-action Section */
+#call-to-action{
+    padding: 80px;
+}
+.call-to-action{
+    width: 70%;
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.call-to-action>div>p:nth-child(1){
+    font-weight: 700;
+}
+.call-to-action div:nth-child(2){
+    border: 1px solid white;
+    border-radius: 5px;
+    align-self: flex-end; 
+}
+.call-to-action div:nth-child(2) button{
+    font-weight: 700;
+    margin: auto 0;
+}
+
+/* Footer Section */
+footer{
+    text-align: center;
+    padding: 20px 0;
 }
 
 /* Button */
